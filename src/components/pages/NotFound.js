@@ -11,7 +11,9 @@ const NotFound = ({ img }) => {
           justifyContent: "center"
         }}
       >
-        <span className="text-danger">404 </span>
+        <span className="text-danger">
+          404: <br />{" "}
+        </span>
         Page Not Found
       </h1>
       <img
